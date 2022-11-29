@@ -120,7 +120,7 @@ We discover that the best parameters, among those that we chose, are the followi
 {'C': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
 ```
 
-### 2.3 Decission Tree Classifier
+### 2.3 Decission Tree
 For this model, the most important parameters are:
 - 'min_samples_leaf': Parameter used to control over-fitting by defining that each leaf has more than one element. In reality, what this is actually doing is simply just telling the tree that each leaf doesn’t have to have an impurity of 0, we will look into impurity further in min_impurity_decrease.
 - 'max_depth': The maximum depth of the tree. Too much would cause overfitting, and too little would not explain correctly the data, this is why it's a critical parameter for this model.
