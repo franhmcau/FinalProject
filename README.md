@@ -250,4 +250,8 @@ clf = best_model.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 ```
 
-And this gives us an accuracy of **0.91**, the highest value we've obtained in this test.
+And this gives us an accuracy of **0.91**, the highest value we've obtained in this test:
+
+```r
+Accuracy: 0.91
+```
